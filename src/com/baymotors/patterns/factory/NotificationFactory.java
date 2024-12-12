@@ -4,6 +4,10 @@ import com.baymotors.models.Customer;
 
 public class NotificationFactory {
     public static Notification createNotification(NotificationType type, Customer customer) {
+        // Add null checks
+        if (type == null) {
+            throw new IllegalArgumentException("Notification type cannot be null");
+        }
         if (customer == null) {
             throw new IllegalArgumentException("Customer cannot be null");
         }

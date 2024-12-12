@@ -13,8 +13,8 @@ public class TaskManagementTest {
 
     @BeforeEach
     void setUp() {
-        manager = new Manager(1, "Test Manager", "admin@baymotors.com", "admin123");
-        mechanic = new Mechanic(2, "Test Mechanic", "john@baymotors.com", "mech123");
+        manager = new Manager(1, "Test Manager", "manager@test.com", "pass123");
+        mechanic = new Mechanic(2, "Test Mechanic", "mechanic@test.com", "pass123");
         vehicle = new Vehicle(1, "ABC123", new Manufacturer(1, "Toyota"), "Corolla", 2020);
         task = new Task(1, "Oil Change", 1, vehicle);
     }
