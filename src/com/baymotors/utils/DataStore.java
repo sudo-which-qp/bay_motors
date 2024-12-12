@@ -112,6 +112,7 @@ public class DataStore {
                     "john.doe@email.com",
                     "02920789123"
             );
+            defaultCustomer.register();
             addCustomer(defaultCustomer);
 
             // Create a default vehicle for the customer
