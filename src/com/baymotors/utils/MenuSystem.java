@@ -1,9 +1,3 @@
-/*
- * MenuSystem.java
- * Main class responsible for handling the garage management system's user interface
- * and menu operations.
- */
-
 package com.baymotors.utils;
 
 import com.baymotors.exceptions.BayMotorsException;
@@ -11,7 +5,6 @@ import com.baymotors.exceptions.TaskException;
 import com.baymotors.models.*;
 import com.baymotors.patterns.factory.NotificationFactory;
 import com.baymotors.patterns.factory.NotificationType;
-import com.baymotors.patterns.state.InProgressState;
 import com.baymotors.patterns.state.WaitingState;
 
 import java.util.Scanner;
